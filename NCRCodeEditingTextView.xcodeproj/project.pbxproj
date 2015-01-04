@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05B7CC991A58DF6B00A979D6 /* NCRCodeEditingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B7CC981A58DF6B00A979D6 /* NCRCodeEditingTextView.m */; };
+		05B7CC9B1A58DF7200A979D6 /* javascript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05B7CC9A1A58DF7200A979D6 /* javascript.plist */; };
+		05B7CCA01A58DF8000A979D6 /* NoodleLineNumberMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B7CC9D1A58DF8000A979D6 /* NoodleLineNumberMarker.m */; };
+		05B7CCA11A58DF8000A979D6 /* NoodleLineNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B7CC9F1A58DF8000A979D6 /* NoodleLineNumberView.m */; };
+		05B7CCA81A58DF8C00A979D6 /* SFBPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B7CCA31A58DF8C00A979D6 /* SFBPopover.m */; };
+		05B7CCA91A58DF8C00A979D6 /* SFBPopoverWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B7CCA51A58DF8C00A979D6 /* SFBPopoverWindow.m */; };
+		05B7CCAA1A58DF8C00A979D6 /* SFBPopoverWindowFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B7CCA71A58DF8C00A979D6 /* SFBPopoverWindowFrame.m */; };
+		05DA28971A58DEF40013A504 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DA28961A58DEF40013A504 /* AppDelegate.m */; };
+		05DA28991A58DEF40013A504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DA28981A58DEF40013A504 /* main.m */; };
+		05DA289B1A58DEF40013A504 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DA289A1A58DEF40013A504 /* Images.xcassets */; };
+		05DA289E1A58DEF40013A504 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DA289C1A58DEF40013A504 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05B7CC971A58DF6B00A979D6 /* NCRCodeEditingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCRCodeEditingTextView.h; sourceTree = "<group>"; };
+		05B7CC981A58DF6B00A979D6 /* NCRCodeEditingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCRCodeEditingTextView.m; sourceTree = "<group>"; };
+		05B7CC9A1A58DF7200A979D6 /* javascript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = javascript.plist; sourceTree = "<group>"; };
+		05B7CC9C1A58DF8000A979D6 /* NoodleLineNumberMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoodleLineNumberMarker.h; path = ../../../Desktop/NCRSyntaxHighlightedTextView/NCRCodeEditingTextView/NoodleLineNumberMarker.h; sourceTree = "<group>"; };
+		05B7CC9D1A58DF8000A979D6 /* NoodleLineNumberMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoodleLineNumberMarker.m; path = ../../../Desktop/NCRSyntaxHighlightedTextView/NCRCodeEditingTextView/NoodleLineNumberMarker.m; sourceTree = "<group>"; };
+		05B7CC9E1A58DF8000A979D6 /* NoodleLineNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoodleLineNumberView.h; path = ../../../Desktop/NCRSyntaxHighlightedTextView/NCRCodeEditingTextView/NoodleLineNumberView.h; sourceTree = "<group>"; };
+		05B7CC9F1A58DF8000A979D6 /* NoodleLineNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoodleLineNumberView.m; path = ../../../Desktop/NCRSyntaxHighlightedTextView/NCRCodeEditingTextView/NoodleLineNumberView.m; sourceTree = "<group>"; };
+		05B7CCA21A58DF8C00A979D6 /* SFBPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBPopover.h; sourceTree = "<group>"; };
+		05B7CCA31A58DF8C00A979D6 /* SFBPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBPopover.m; sourceTree = "<group>"; };
+		05B7CCA41A58DF8C00A979D6 /* SFBPopoverWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBPopoverWindow.h; sourceTree = "<group>"; };
+		05B7CCA51A58DF8C00A979D6 /* SFBPopoverWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBPopoverWindow.m; sourceTree = "<group>"; };
+		05B7CCA61A58DF8C00A979D6 /* SFBPopoverWindowFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBPopoverWindowFrame.h; sourceTree = "<group>"; };
+		05B7CCA71A58DF8C00A979D6 /* SFBPopoverWindowFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBPopoverWindowFrame.m; sourceTree = "<group>"; };
+		05DA28901A58DEF40013A504 /* NCRCodeEditingTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCRCodeEditingTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DA28941A58DEF40013A504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05DA28951A58DEF40013A504 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05DA28961A58DEF40013A504 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05DA28981A58DEF40013A504 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05DA289A1A58DEF40013A504 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05DA289D1A58DEF40013A504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		05DA28A81A58DEF40013A504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05DA28A91A58DEF40013A504 /* NCRCodeEditingTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCRCodeEditingTextViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05DA288D1A58DEF40013A504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05DA28871A58DEF30013A504 = {
+			isa = PBXGroup;
+			children = (
+				05DA28921A58DEF40013A504 /* NCRCodeEditingTextView */,
+				05DA28A61A58DEF40013A504 /* NCRCodeEditingTextViewTests */,
+				05DA28911A58DEF40013A504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05DA28911A58DEF40013A504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05DA28901A58DEF40013A504 /* NCRCodeEditingTextView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05DA28921A58DEF40013A504 /* NCRCodeEditingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				05DA28951A58DEF40013A504 /* AppDelegate.h */,
+				05DA28961A58DEF40013A504 /* AppDelegate.m */,
+				05B7CC971A58DF6B00A979D6 /* NCRCodeEditingTextView.h */,
+				05B7CC981A58DF6B00A979D6 /* NCRCodeEditingTextView.m */,
+				05B7CC9C1A58DF8000A979D6 /* NoodleLineNumberMarker.h */,
+				05B7CC9D1A58DF8000A979D6 /* NoodleLineNumberMarker.m */,
+				05B7CC9E1A58DF8000A979D6 /* NoodleLineNumberView.h */,
+				05B7CC9F1A58DF8000A979D6 /* NoodleLineNumberView.m */,
+				05B7CCA21A58DF8C00A979D6 /* SFBPopover.h */,
+				05B7CCA31A58DF8C00A979D6 /* SFBPopover.m */,
+				05B7CCA41A58DF8C00A979D6 /* SFBPopoverWindow.h */,
+				05B7CCA51A58DF8C00A979D6 /* SFBPopoverWindow.m */,
+				05B7CCA61A58DF8C00A979D6 /* SFBPopoverWindowFrame.h */,
+				05B7CCA71A58DF8C00A979D6 /* SFBPopoverWindowFrame.m */,
+				05B7CC9A1A58DF7200A979D6 /* javascript.plist */,
+				05DA289A1A58DEF40013A504 /* Images.xcassets */,
+				05DA289C1A58DEF40013A504 /* MainMenu.xib */,
+				05DA28931A58DEF40013A504 /* Supporting Files */,
+			);
+			path = NCRCodeEditingTextView;
+			sourceTree = "<group>";
+		};
+		05DA28931A58DEF40013A504 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05DA28941A58DEF40013A504 /* Info.plist */,
+				05DA28981A58DEF40013A504 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05DA28A61A58DEF40013A504 /* NCRCodeEditingTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				05DA28A91A58DEF40013A504 /* NCRCodeEditingTextViewTests.m */,
+				05DA28A71A58DEF40013A504 /* Supporting Files */,
+			);
+			path = NCRCodeEditingTextViewTests;
+			sourceTree = "<group>";
+		};
+		05DA28A71A58DEF40013A504 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05DA28A81A58DEF40013A504 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05DA288F1A58DEF40013A504 /* NCRCodeEditingTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DA28AD1A58DEF40013A504 /* Build configuration list for PBXNativeTarget "NCRCodeEditingTextView" */;
+			buildPhases = (
+				05DA288C1A58DEF40013A504 /* Sources */,
+				05DA288D1A58DEF40013A504 /* Frameworks */,
+				05DA288E1A58DEF40013A504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NCRCodeEditingTextView;
+			productName = NCRCodeEditingTextView;
+			productReference = 05DA28901A58DEF40013A504 /* NCRCodeEditingTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05DA28881A58DEF30013A504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Daniel Weber";
+				TargetAttributes = {
+					05DA288F1A58DEF40013A504 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 05DA288B1A58DEF30013A504 /* Build configuration list for PBXProject "NCRCodeEditingTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05DA28871A58DEF30013A504;
+			productRefGroup = 05DA28911A58DEF40013A504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05DA288F1A58DEF40013A504 /* NCRCodeEditingTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05DA288E1A58DEF40013A504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DA289B1A58DEF40013A504 /* Images.xcassets in Resources */,
+				05DA289E1A58DEF40013A504 /* MainMenu.xib in Resources */,
+				05B7CC9B1A58DF7200A979D6 /* javascript.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05DA288C1A58DEF40013A504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B7CCA91A58DF8C00A979D6 /* SFBPopoverWindow.m in Sources */,
+				05B7CC991A58DF6B00A979D6 /* NCRCodeEditingTextView.m in Sources */,
+				05DA28991A58DEF40013A504 /* main.m in Sources */,
+				05B7CCAA1A58DF8C00A979D6 /* SFBPopoverWindowFrame.m in Sources */,
+				05DA28971A58DEF40013A504 /* AppDelegate.m in Sources */,
+				05B7CCA81A58DF8C00A979D6 /* SFBPopover.m in Sources */,
+				05B7CCA11A58DF8000A979D6 /* NoodleLineNumberView.m in Sources */,
+				05B7CCA01A58DF8000A979D6 /* NoodleLineNumberMarker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05DA289C1A58DEF40013A504 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05DA289D1A58DEF40013A504 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05DA28AB1A58DEF40013A504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		05DA28AC1A58DEF40013A504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		05DA28AE1A58DEF40013A504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NCRCodeEditingTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05DA28AF1A58DEF40013A504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NCRCodeEditingTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05DA288B1A58DEF30013A504 /* Build configuration list for PBXProject "NCRCodeEditingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DA28AB1A58DEF40013A504 /* Debug */,
+				05DA28AC1A58DEF40013A504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DA28AD1A58DEF40013A504 /* Build configuration list for PBXNativeTarget "NCRCodeEditingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DA28AE1A58DEF40013A504 /* Debug */,
+				05DA28AF1A58DEF40013A504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05DA28881A58DEF30013A504 /* Project object */;
+}
